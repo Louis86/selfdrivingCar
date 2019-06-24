@@ -43,13 +43,11 @@ Durant le test :
 
 ### Mode cpu 
 On voit qu'en utilisant un nombre restreint de reseau de neuronne, on peut avoir une excellente resultat car il traite les données essentielles de l'images pour choisir l'angle de braquage.
- [link text](https://youtu.be/iBu57nVHUb8 "CPU")
+[![](http://img.youtube.com/vi/iBu57nVHUb8/0.jpg)](http://www.youtube.com/watch?v=iBu57nVHUb8 "self driving car using CPU")
 
 ### Mode GPU
 Utiliser un grand nombre de réseau de neuronne , c'est de traiter une quantité de donnée importante.Donc on a besoin d'un puissance de puissance de calcul coûteuse, alors on  utiliser la puissance des GPU (unités de traitement graphiques).
 
-  [link text](https://www.youtube.com/watch?v=O9PHgNqd-wY "CPU")
-
-[![GPU](http://img.youtube.com/vi/KOxbO0EI4MA/0.jpg)](https://www.youtube.com/watch?v=O9PHgNqd-wY "GPU")
+[![GPU](http://img.youtube.com/vi/KOxbO0EI4MA/0.jpg)](https://www.youtube.com/watch?v=O9PHgNqd-wY "self driving car using GPU")
 Même si le processeur est beaucoup plus rapide pour le traitement de donnée graphique . Cependant, Il ne peut pas traiter plusieurs informations en même temps pour les traitement graphique par rapport à un GPU.
 
