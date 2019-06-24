@@ -21,7 +21,7 @@ Actuellement, il y a un nombre croissante sur l'utilisation de l' IA. l'intélli
 # Technique d'apprentissage utilisé
 ## CNN: Conventional Neural Network
 C’est une technique d'apprentissage supervisé. On reçoit les images en entrée et on prédit l’angle de braquage. Il faut noté que la raison de CNN est que c'est destiné au traitement d'image. c'est pour cette raison qu'on a choisit cette technique. Au tout , début on va traiter les images pour ne garder que les essentielles avant de les faire passer à travers le réseau.
-Le premier réseau de neurone applique les opérations de filtrages avec plusieurs noyaux de convolutions, puis redimensionne . L'objectif est de traiter les images et d’extraire les informations importantes. On passe les données d'entrainement à travers les réseau de convolution . On applique le technique de Pooling, qui signifie de ne garder que les données nécessaires . On utilise aussi le dropout , qui permet de désactiver certain neurone. Puis, on fa utiliser flatten permettant de créer le vecteur final au réseau de neurone. Le second réseau de neuron permet de prédire l’angle de braquage en fonction des information issus des réseaux de neurones précédentes.
+Le premier réseau de neurone applique les opérations de filtrages avec plusieurs noyaux de convolutions, puis redimensionne . L'objectif est de traiter les images et d’extraire les informations importantes. On passe les données d'entrainement à travers les réseau de convolution . On applique le technique de Pooling, qui signifie de ne garder que les données nécessaires . On utilise aussi le dropout , qui permet de désactiver certain neurone. Puis, on fa utiliser flatten permettant de créer le vecteur final au réseau de neurone. Le second réseau de neuron permet de prédire l’angle de braquage en fonction des information issus des réseaux de neurones précédentes. Après, les divers couches de neuronnes subit plusieurs optimization par gradiant descent.
 
 ## Mise en place: 
 80 %  des donnée des données sont d'entraînement 
@@ -55,7 +55,7 @@ Utiliser un grand nombre de réseau de neuronne , c'est de traiter une quantité
 [![](http://img.youtube.com/vi/O9PHgNqd-wY/0.jpg)](http://www.youtube.com/watch?v=O9PHgNqd-wY "self driving car using GPU")
 
 
-Ici , j'ai un processeur graphique qui n'est pas NVIDIA donc qui n'est pas adequate à la puissance nécessaire pour éxecuter les couches de neuronnes en série donc ce qui explique le zigzag de la voiture
+Ici , On a un processeur graphique qui n'est pas NVIDIA donc qui n'est pas adequate à la puissance nécessaire pour éxecuter les couches de neuronnes en série donc ce qui explique le zigzag de la voiture
 
 ## Conclusion 
 Faire un CNN avec le nombre de couche minimum est possible si on utilise des données images qui ne contient pas une grande nombre d'information . Par contre des qu'on veut généraliser un problème ou l'information sur une image contient beaucoup d'information nécessaire on doit établir plusieurs couche de neuronne en couche et c'est pour la nécéssité de traitement de donnée par la carte graphique .
