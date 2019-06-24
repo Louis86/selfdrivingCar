@@ -44,12 +44,18 @@ Durant le test :
 
 ### Mode cpu 
 On voit qu'en utilisant un nombre restreint de reseau de neuronne, on peut avoir une excellente resultat car il traite les données essentielles de l'images pour choisir l'angle de braquage.
+##### simulation
 [![](http://img.youtube.com/vi/iBu57nVHUb8/0.jpg)](http://www.youtube.com/watch?v=iBu57nVHUb8 "self driving car using CPU")
 
 ### Mode GPU
 Utiliser un grand nombre de réseau de neuronne , c'est de traiter une quantité de donnée importante.Donc on a besoin d'un puissance de puissance de calcul coûteuse, alors on  utiliser la puissance des GPU (unités de traitement graphiques).
-
+##### Carte graphique
+![alt text](https://github.com/Louis86/selfdrivingCar/blob/master/GPU.jpg)
+##### Simulation 
 [![](http://img.youtube.com/vi/O9PHgNqd-wY/0.jpg)](http://www.youtube.com/watch?v=O9PHgNqd-wY "self driving car using GPU")
 
-Même si le processeur est beaucoup plus rapide pour le traitement de donnée graphique . Cependant, Il ne peut pas traiter plusieurs informations en même temps pour les traitement graphique par rapport à un GPU. 
 
+Ici , j'ai un processeur graphique qui n'est pas NVIDIA donc qui n'est pas adequate à la puissance nécessaire pour éxecuter les couches de neuronnes en série donc ce qui explique le zigzag de la voiture
+
+## Conclusion 
+Faire un CNN avec le nombre de couche minimum est possible si on utilise des données images qui ne contient pas une grande nombre d'information . Par contre des qu'on veut généraliser un problème ou l'information sur une image contient beaucoup d'information nécessaire on doit établir plusieurs couche de neuronne en couche et c'est pour la nécéssité de traitement de donnée par la carte graphique .
