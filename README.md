@@ -52,4 +52,5 @@ Utiliser un grand nombre de réseau de neuronne , c'est de traiter une quantité
 Même si le processeur est beaucoup plus rapide pour le traitement de donnée graphique . Cependant, Il ne peut pas traiter plusieurs informations en même temps pour les traitement graphique par rapport à un GPU.
 
 
-
+CPU
+https://youtu.be/iBu57nVHUb8
