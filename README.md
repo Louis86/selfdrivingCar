@@ -51,5 +51,5 @@ Utiliser un grand nombre de réseau de neuronne , c'est de traiter une quantité
 
 [![](http://img.youtube.com/vi/O9PHgNqd-wY/0.jpg)](http://www.youtube.com/watch?v=O9PHgNqd-wY "self driving car using GPU")
 
-Même si le processeur est beaucoup plus rapide pour le traitement de donnée graphique . Cependant, Il ne peut pas traiter plusieurs informations en même temps pour les traitement graphique par rapport à un GPU.
+Même si le processeur est beaucoup plus rapide pour le traitement de donnée graphique . Cependant, Il ne peut pas traiter plusieurs informations en même temps pour les traitement graphique par rapport à un GPU. 
 
