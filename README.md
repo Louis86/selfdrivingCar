@@ -50,6 +50,6 @@ Utiliser un grand nombre de réseau de neuronne , c'est de traiter une quantité
 
   [link text](https://www.youtube.com/watch?v=O9PHgNqd-wY "CPU")
 
-[![Audi R8](http://img.youtube.com/vi/KOxbO0EI4MA/0.jpg)](https://www.youtube.com/watch?v=KOxbO0EI4MA "Audi R8")
+[![GPU](http://img.youtube.com/vi/KOxbO0EI4MA/0.jpg)](https://www.youtube.com/watch?v=O9PHgNqd-wY "GPU")
 Même si le processeur est beaucoup plus rapide pour le traitement de donnée graphique . Cependant, Il ne peut pas traiter plusieurs informations en même temps pour les traitement graphique par rapport à un GPU.
 
